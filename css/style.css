@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-image: url("../img/bg-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 700px;
+}
+#head .main {
+    width: 90%;
+    margin: 0 auto;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+}
+#head .topbar{
+    display: flex;
+    justify-content: space-between;
+}
+#head .topbar .navm{
+    align-self: center;
+}
+#head .topbar .navm ul{
+    display: flex;
+    list-style: none;
+}
+#head .topbar .navm ul li{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.779);
+    padding: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.786);
+    border-radius: 10px;
+}
+#head .topbar .navm ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#head section{
+    text-align: center;
+}
+#head section h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    font-family: "Times New Roman";
+}
+#head section h1 span{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 30px 0;
+    font-size: 60px;
+}
+#head section button{
+    padding: 10px 20px;
+    margin-top: -15px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: white;
+    border: solid 3px;
+}
+#head section p{
+    color: white;
+    font-size: 20px;
+}
+#head section p a{
+    color: white;
+}
+/* FFC*/
+.div1 .div11{
+    display: flex;
+}
